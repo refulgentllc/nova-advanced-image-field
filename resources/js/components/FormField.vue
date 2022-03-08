@@ -23,6 +23,7 @@
                 class="mb-4"
                 ref='cropper'
                 :view-mode="1"
+                :zoomable="false"
                 :aspect-ratio="field.aspectRatio || NaN"
                 :src="imgSrc"
             ></vue-cropper>
