@@ -35,7 +35,8 @@
 </template>
 
 <script>
-import ImageLoader from '@/components/Image/ImageLoader'
+
+import ImageLoader from 'baseresource/components/Image/ImageLoader'
 
 export default {
     props: ['field', 'resourceId', 'resourceName'],

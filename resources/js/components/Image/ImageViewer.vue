@@ -47,8 +47,8 @@
 <script>
 import { Errors } from 'laravel-nova'
 
-import Button from '@/components/Button/Button'
-import ImageLoader from '@/components/Image/ImageLoader'
+import Button from 'baseresource/components/Button/Button'
+import ImageLoader from 'baseresource/components/Image/ImageLoader'
 
 export default {
     components: { Button, ImageLoader },
