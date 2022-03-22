@@ -72,8 +72,8 @@ import 'cropperjs/dist/cropper.css'
 import VueCropper from 'vue-cropperjs'
 import { FormField, HandlesValidationErrors, Errors } from 'laravel-nova'
 
-import Button from '@/components/Button/Button'
-import ImageViewer from '@/components/Image/ImageViewer'
+import Button from 'baseresource/components/Button/Button'
+import ImageViewer from 'baseresource/components/Image/ImageViewer'
 
 export default {
     props: ['field', 'resourceId', 'resourceName', 'relatedResourceId', 'relatedResourceName', 'viaRelationship'],
